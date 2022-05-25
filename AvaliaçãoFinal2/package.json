@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "pacote": "^13.4.0"
+  },
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}

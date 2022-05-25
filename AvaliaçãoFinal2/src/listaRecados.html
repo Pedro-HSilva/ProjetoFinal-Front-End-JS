@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recados</title>
+    <link rel="stylesheet" href="./css/recados.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <form id="info_recado">
+        <h1>Meus Recados</h1>
+        <input
+          id="descricao"
+          type="text"
+          placeholder="Descrição (Max: 30 caracteres)"
+          maxlength="30"
+        />
+        <input
+          id="detalhamento"
+          type="text"
+          placeholder="Detalhamento (Max: 50 caracteres)"
+          maxlength="50"
+        />
+        <button id="salvar" type="submit" style="cursor: pointer">
+          Salvar
+        </button>
+      </form>
+    </header>
+    <section>
+      <table id="table"></table>
+    </section>
+  </body>
+  <script src="./logica/listaRecados.js"></script>
+</html>

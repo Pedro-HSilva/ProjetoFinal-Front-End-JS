@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section"></section>
+      <section class="section">
+        <h1 id="titulo">ENTRAR NO SISTEMA DE RECADOS</h1>
+        <div id="login">
+          <form action="" id="forms">
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+          </form>
+          <button type="button" id="entrar">ENTRAR</button>
+          <button
+            type="submit"
+            id="criarConta"
+            onclick="window.location.href='cadastro.html'"
+          >
+            Criar conta
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./logica/login.js"></script>
+  </body>
+</html>

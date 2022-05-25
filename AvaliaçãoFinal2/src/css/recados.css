@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 5vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 90vw;
+  height: 100vh;
+  background-image: url(../images/2014-04-11-bliss.webp);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+table {
+  width: 60vw;
+  border-collapse: collapse;
+}
+
+h1 {
+  padding: 8px;
+  color: #000;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  background-color: rgba(252, 250, 250, 0.6);
+  width: 30rem;
+  font-size: 50px;
+  text-align: center;
+}
+#descricao {
+  padding: 5px;
+  width: 300px;
+  box-shadow: 6px 4px 4px black;
+  border: none;
+  background-color: rgb(241, 242, 245);
+}
+
+#detalhamento {
+  padding: 5px;
+  margin-left: 20px;
+  width: 500px;
+  box-shadow: 6px 4px 4px black;
+  border: none;
+  background-color: rgb(241, 242, 245);
+}
+
+#salvar {
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  background-color: #e2652b;
+  color: #ffffffef;
+  box-shadow: 6px 4px 4px black;
+}
+
+#identificador {
+  font-size: larger;
+  background-color: rgba(252, 250, 250, 0.6);
+}
+
+.tds {
+  padding: 10px;
+  text-align: center;
+}
+
+.tds:hover {
+  background-color: rgb(233, 230, 230);
+}
+
+#itensTabela {
+  padding: 10px;
+  background-color: rgba(252, 250, 250, 0.6);
+  color: #000000;
+  font-size: large;
+}
+
+#info_recado > input:focus {
+  border: none;
+  outline: none;
+}
+#btn-editar {
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  background-color: #2eb629;
+  color: #ffffffef;
+  margin-bottom: 17px;
+  box-shadow: 6px 4px 4px black;
+}
+
+#btn-apagar {
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  margin-top: 20px;
+  background-color: #c21818;
+  color: #ffffffef;
+  box-shadow: 6px 4px 4px black;
+}
+
+#num {
+  font-size: 25px;
+}

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.section:first-child {
+  background-image: url(../images/pexels-jackson-david-2952204.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position: 10px;
+  margin-left: -0px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 10px;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#login > button:hover {
+  transform: scale(1.1) perspective(1px);
+  cursor: pointer;
+}
+
+#username {
+  margin-right: -6px;
+}
+
+#passwordrepeat {
+  margin-left: -6px;
+}
+
+#forms > input {
+  padding: 12px;
+}
+
+#forms > input:focus {
+  outline: none;
+}
+
+#entrar {
+  border: none;
+  color: white;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  width: 20rem;
+  padding: 12px;
+  background-color: rgb(44, 119, 94);
+}
+
+#criarConta {
+  background: none;
+  border: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+#criarContaDois {
+  background-color: rgb(44, 119, 94);
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 16px;
+  width: 20rem;
+  padding: 12px;
+}
+
+#titulo {
+  color: rgb(58, 134, 110);
+  font-size: 2rem;
+  padding: 10px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
